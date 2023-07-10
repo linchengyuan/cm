@@ -1,0 +1,206 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/math",
+					"jsonFile" : "directory-src.math-Debug-32085ce2d0716527a3eb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/math",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/mpool",
+					"jsonFile" : "directory-src.mpool-Debug-4d61afacfd4c4dfd7099.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/mpool",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/glad",
+					"jsonFile" : "directory-src.glad-Debug-84227c1f0ab1c3982409.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/glad",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/render",
+					"jsonFile" : "directory-src.render-Debug-a3de59180b8b2c19160e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/render",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "glad::@626ca26c3704e7a7fbd4",
+					"jsonFile" : "target-glad-Debug-05700a1702c47c4abb1d.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "math::@c3aed6c50cc997bcdd53",
+					"jsonFile" : "target-math-Debug-6372b2b71b1058ae29b9.json",
+					"name" : "math",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "mpool::@cc3b923a02c05fdbc597",
+					"jsonFile" : "target-mpool-Debug-3c7bfa65a90f00c7229e.json",
+					"name" : "mpool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "render::@e50e1ac4f031f1d89846",
+					"jsonFile" : "target-render-Debug-330b52ce55a48954fbba.json",
+					"name" : "render",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-test-Debug-6c931837711545ae8768.json",
+					"name" : "test",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Projects/qt/bim/build",
+		"source" : "D:/Projects/qt/bim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
